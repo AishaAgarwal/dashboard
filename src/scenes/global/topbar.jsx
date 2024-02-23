@@ -17,11 +17,11 @@ const Topbar = () => {
   const styledBox = styled(Box);
   return (
     <Box display="flex" justifyContent="space-between" p={2}>
-      <styledBox
+      <Box
         display="flex"
         backgroundColor={colors.primary[400]}
         borderRadius="3px"
-      ></styledBox>
+      ></Box>
       <InputBase sx = {{ml:2, flex: 1}} placeholder = "Search"/>
       <IconButton type="button" sx={{p:1}}>
         <SearchOutlinedIcon/>
